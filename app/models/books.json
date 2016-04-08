@@ -1,0 +1,51 @@
+[
+{
+	"id": "123456",
+	"bookName": "Don Quixote", 
+	"author": "Cervantes",
+	"price": 250,
+	"rating": 4
+},
+{
+	"id": "987654",
+	"bookName": "The Moonstone", 
+	"author": "Wilkie Collins",
+	"price": 160,
+	"rating": 4
+},
+{
+	"id": "474623",
+	"bookName": "The Hound of Baskervilles", 
+	"author": "Arthur Conan Doyle",
+	"price": 300,
+	"rating": 5
+},
+{
+	"id": "836503",
+	"bookName": "Trumpet Major", 
+	"author": "Thomas Hardy",
+	"price": 130,
+	"rating": 3
+},
+{
+	"id": "561203",
+	"bookName": "Lord of the Rings", 
+	"author": "J.R.R Tolkien",
+	"price": 260,
+	"rating": 4
+},
+{
+	"id": "473953",
+	"bookName": "Tell-a-Tale Heart", 
+	"author": "Edgar Allan Poe",
+	"price": 500,
+	"rating": 5
+},
+{
+	"id": "123042",
+	"bookName": "Love", 
+	"author": "Guy De Maupassant",
+	"price": 190,
+	"rating": 4
+}
+]

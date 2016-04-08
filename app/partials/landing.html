@@ -1,0 +1,23 @@
+<div class="landing">
+	<span class="heading welcome">Welcome {{name}}!</span>
+	<span class="logout" ng-click="logout()">Logout</span>
+	<br/>
+	<div class="fav-books">
+		<div class="search">
+			<input class="searchBox" ng-model="searchBook" placeholder="Search">
+			<span class="clearSearchBox" ng-click="clearSearchBox()">X</span>
+		</div>
+		<ul>
+			<li>
+				<div class="col list-head col-id">ID</div>
+				<div class="col list-head col-bookName">Book Name</div>
+				<div class="col list-head col-author">Author</div>
+			</li>
+			<li class="row" ng-repeat="book in books | filter:searchBook" ng-click="showDetails(book)">
+				<div class="col col-id">{{book.id}}</div>
+				<div class="col col-bookName">{{book.bookName}}</div>
+				<div class="col col-author">{{book.author}}</div>
+			</li>
+		</ul>
+	</div>
+</div>

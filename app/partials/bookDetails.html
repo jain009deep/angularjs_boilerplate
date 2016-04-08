@@ -1,0 +1,25 @@
+<div class="bookDetails">
+	<span class="heading welcome">Welcome {{name}}!</span>
+	
+	<span class="logout" ng-click="logout()">Logout</span>
+
+	<span class="back" ng-click="back()">Back</span>
+	<br/>
+	<div class="details">
+		<div>
+			<span class="label">ID</span>:<span class="value">{{book.id}}</span>
+		</div>
+		<div>
+			<span class="label">Name</span>:<span class="value">{{book.bookName}}</span>
+		</div>
+		<div>
+			<span class="label">Author</span>:<span class="value">{{book.author}}</span>
+		</div>
+		<div>
+			<span class="label">Price</span>:<span class="value">{{book.price}}</span>
+		</div>
+		<div>
+			<span class="label">Rating</span>:<span class="value rating" rating-value="book.rating" max="5"></span>
+		<div>
+	</div>
+</div>

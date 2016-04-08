@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+
+		<!-- build:css assets/css/lib.min.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css" />
+		<!-- endbower -->
+		<!-- endbuild -->        
+        
+        <!-- build:css assets/css/style.min.css -->
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+        <!-- endbuild --> 
+        
+        <title>POC</title>
+    </head>
+	<body ng-app="POC"> 
+		<div class="header">Book Management System</div>
+		<h1>Navdeep JAin</h1>
+		<div class= "content">
+			<div ng-view class="viewContainer"></div>
+			<div class="clear-fix"></div>
+		</div>
+
+		<div class="footer">My Work</div>
+
+		<!-- build:js lib.min.js -->
+		<!-- bower:js -->
+		<script src="../lib/jquery/dist/jquery.js"></script>
+		<script src="../lib/angular/angular.js"></script>
+		<script src="../lib/angular-route/angular-route.js"></script>
+		<script src="../lib/bootstrap/dist/js/bootstrap.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		
+		<!-- build:uglify script.min.js -->
+		<script src="main.js"></script>
+		<script src="config/config.js"></script>
+		<script src="services/services.js"></script>
+		<script src="services/dataFactory.js"></script>
+		<script src="directives/ratingDirective.js"></script>
+		<script src="controllers/loginCtrl.js"></script>
+		<script src="controllers/landingCtrl.js"></script>
+		<script src="controllers/bookDetailsCtrl.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>
